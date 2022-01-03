@@ -1,5 +1,10 @@
 module View
 
+open Elmish
+open Elmish.React
+open Fable.Core
+open Feliz
+
 let private renderButton dispatch index (number: int) =
     Html.button [ prop.style [ style.padding 20
                                style.fontSize 20 ]

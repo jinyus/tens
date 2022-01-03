@@ -3,7 +3,7 @@ module App
 open Elmish
 open Elmish.React
 open Fable.Core
-
+open AppState
 
 module Controller =
     open Extensions
